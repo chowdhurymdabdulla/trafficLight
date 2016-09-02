@@ -1,0 +1,41 @@
+html {
+        font-size: 10px;
+    }
+    
+    body {
+        font-family: sans-serif;
+    }
+    
+    #controlPanel {
+        float: left;
+        padding-top: 2rem;
+    }
+    
+    .button {
+        background-color: gray;
+        color: white;
+        border-radius: 0.6667rem;
+        padding: 1.3333rem;
+        text-align: center;
+        margin: 6rem 2.6667rem;
+        cursor: pointer;
+    }
+    
+    #traffic-light {
+        height: 36.6667rem;
+        width: 13.3333rem;
+        float: left;
+        background-color: #333;
+        border-radius: 2.6667rem;
+        margin: 2rem 0;
+        padding: 1.3333rem;
+    }
+    
+    .bulb {
+        height: 10rem;
+        width: 10rem;
+        background-color: #111;
+        border-radius: 50%;
+        margin: 1.6667rem auto;
+        transition: background 500ms;
+    }
